@@ -3,7 +3,7 @@ import os
 import requests
 from tkinter import messagebox
 
-class DesktopBG:
+class BingAPI:
 
     def get_url(self):
         base_url = 'https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1'
@@ -35,4 +35,4 @@ class DesktopBG:
         else:
             messagebox.showerror('Error', 'An error occurred')
 
-DesktopBG().run()
+BingAPI().run()
